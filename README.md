@@ -12,7 +12,7 @@ CSV分隔符：支持自定义CSV分隔符，默认为','
 数据输出：支持将转换后的JSON数据写入文件或打印到控制台。  
 
 ### 示例
-python csv2json.py -S ',' -H 0 -c 5 -u 'column1 column2' -n 'name1 name2' -N 100 -s 2 -r '0 1 2' -a 'new_column' -p
+''' python csv2json.py -S ',' -H 0 -c 5 -u 'column1 column2' -n 'name1 name2' -N 100 -s 2 -r '0 1 2' -a 'new_column' -p '''
 -S 指定CSV分隔符为逗号。   
 -H 指定使用第0行作为列名。   
 -c 指定仅使用前5列。   
